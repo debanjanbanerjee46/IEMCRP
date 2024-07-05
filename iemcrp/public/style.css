@@ -1,0 +1,136 @@
+body {
+  background-color: #1f1f1f;
+}
+nav {
+  background-color: #242b2e;
+  width: 150px;
+  min-height: 100vh;
+  float: left;
+  margin-top: 0;
+  padding-top: 0;
+}
+nav > img {
+  width: 100%;
+  background-color: #5da3fa;
+}
+nav > a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 25px;
+  border-bottom: 1px dashed black;
+}
+nav > a:hover {
+  background-color: #ea8c2d;
+  transform: scale(1.1);
+}
+
+section {
+  margin: 0px 50px 0px 200px;
+  color: aliceblue;
+}
+
+.logo {
+  text-align: center;
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.content-body {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(243, 31, 144, 0.12);
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+.content-body img {
+  width: 120px;
+  height: 120px;
+  margin-right: 50px;
+}
+.student-info .student-info-details .lebel {
+  font-weight: 700;
+}
+.payment-block{
+  margin:auto;
+  margin-top: 20px;
+}
+.sem-payment-table .sem-payment-table-row {
+  display: flex;
+}
+.sem-payment-table .sem-payment-table-row .sem-payment-table-col {
+  border: 1px solid gray;
+  min-width: 50px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+.sem-payment-table .sem-payment-table-row .sem-payment-table-col.semester {
+  min-width: 100px;
+}
+.sem-payment-table .sem-payment-table-row .sem-payment-table-col button {
+  cursor: pointer;
+  padding: 3px;
+  border-radius: 4px;
+  min-width: 50px
+}
+.result-block .select-result-block {
+  margin-top: 20px;
+  padding: 10px;
+}
+.result-block .select-result-block .result-label {
+  padding-right: 5px;
+}
+.result-block .select-result-block select {
+  padding: 3px;
+  border-radius: 4px;
+}
+.result-block .select-result-block button {
+  padding-right: 10px;
+  padding: 3px;
+  min-width: 95px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.result-block .select-result-block button:hover {
+  color: #3b3939;
+  background-color: rgb(205, 254, 238);
+}
+.routine {
+  font-size: large;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration-color: azure;
+}
+
+.wrapper {
+  display:flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+  background-color: #444;
+  border-radius: 5px;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  border: 1px solid gray;
+}
+
+.chatbot {
+  width: 60px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+}
