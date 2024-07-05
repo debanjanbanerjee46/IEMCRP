@@ -7,5 +7,5 @@ const connectToMongo = () => {
   mongoose.connect(mongoURI);
   console.log("connected to mongo");
 };
-abc
+
 module.exports = connectToMongo;
